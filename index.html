@@ -118,7 +118,7 @@
     async function getWeather() {
       const location = document.getElementById("locationInput").value;
       const apiKey = "bdfa657f43c348eda23134316252208";
-      const url = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${location}&aqi=yes`;
+      const url = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${location}&aqi=yes`;
 
       const loader = document.getElementById("loader");
       const result = document.getElementById("weatherResult");
@@ -149,3 +149,4 @@
   </script>
 </body>
 </html>
+
